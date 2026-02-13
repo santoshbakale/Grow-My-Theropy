@@ -13,7 +13,7 @@ const AboutSection = ({ image }: AboutSectionProps) => (
         </h2>
       </AnimatedSection>
       <AnimatedSection delay={0.1}>
-        <p className="text-muted-foreground leading-relaxed mb-8 text-[15px] font-light">
+        <p className="text-muted-foreground leading-relaxed mb-8 text-lg md:text-xl font-light">
           I'm a licensed clinical psychologist based in Santa Monica, California, offering therapy for adults who feel overwhelmed by anxiety, stress, or the lingering effects of past experiences. I take a warm, collaborative, and grounded approach to therapy.
         </p>
       </AnimatedSection>

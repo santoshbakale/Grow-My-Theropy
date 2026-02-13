@@ -29,10 +29,10 @@ const HeroSection = ({ image }: HeroSectionProps) => (
       transition={{ duration: 0.8, delay: 0.5, ease: "easeOut" }}
       className="flex flex-col items-center md:items-start justify-center px-8 md:px-16 py-16"
     >
-      <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] leading-[1.05] mb-6 tracking-[-0.01em]">
+      <h1 className="text-6xl md:text-8xl lg:text-[6.5rem] leading-[1.05] mb-8 tracking-[-0.01em]">
         Live your life<br />in full bloom
       </h1>
-      <p className="text-base md:text-lg mb-8 text-muted-foreground tracking-wide font-light">
+      <p className="text-lg md:text-xl lg:text-2xl mb-10 text-muted-foreground tracking-wide font-light">
         Therapy for Adults in Santa Monica, CA.
       </p>
       <a

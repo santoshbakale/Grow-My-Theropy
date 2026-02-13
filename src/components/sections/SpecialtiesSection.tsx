@@ -32,8 +32,8 @@ const SpecialtiesSection = ({ images }: SpecialtiesSectionProps) => (
               loading="lazy"
             />
           </div>
-          <h3 className="text-2xl md:text-[1.75rem] mb-3">{s.title}</h3>
-          <p className="text-muted-foreground text-sm leading-relaxed px-4 font-light">
+          <h3 className="text-3xl md:text-3xl lg:text-4xl mb-4">{s.title}</h3>
+          <p className="text-muted-foreground text-base md:text-lg leading-relaxed px-4 font-light">
             {s.desc}
           </p>
         </AnimatedSection>

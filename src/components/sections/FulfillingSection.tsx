@@ -13,10 +13,10 @@ const FulfillingSection = ({ image }: FulfillingSectionProps) => (
         </h2>
       </AnimatedSection>
       <AnimatedSection delay={0.1}>
-        <p className="text-muted-foreground leading-relaxed mb-4 text-[15px] font-light">
+        <p className="text-muted-foreground text-lg md:text-xl font-light leading-relaxed mb-6">
           Many of the people I work with are high-achieving, thoughtful, and self-aware—but internally feel exhausted, stuck in overthinking, or emotionally on edge.
         </p>
-        <p className="text-muted-foreground leading-relaxed mb-8 text-[15px] font-light">
+        <p className="text-muted-foreground text-lg md:text-xl font-light leading-relaxed mb-10">
           Therapy can become a space to slow down, reconnect, and develop more sustainable ways of living and working.
         </p>
       </AnimatedSection>

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-live-your-life.jpg";
 import fulfillingImage from "@/assets/fulfilling-meditation.jpg";
 import anxietyImage from "@/assets/anxiety-image.jpg";
@@ -43,9 +44,9 @@ const Index = () => {
           Dr. Maya Reynolds
         </span>
         <div className="flex gap-8 text-sm tracking-[0.2em] uppercase font-medium">
-          <a href="#office" onClick={scrollTo("office")} className="hover:text-accent transition-colors duration-300">Office</a>
-          <a href="#blog" onClick={scrollTo("blog")} className="hover:text-accent transition-colors duration-300">Blog</a>
-          <a href="#contact" onClick={scrollTo("contact")} className="hover:text-accent transition-colors duration-300">Contact</a>
+          <Link to="/office" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors duration-300">Office</Link>
+          <Link to="/blog" className="hover:text-accent transition-colors duration-300">Blog</Link>
+          <Link to="/contact" className="hover:text-accent transition-colors duration-300">Contact</Link>
         </div>
       </motion.nav>
 
